@@ -22,6 +22,7 @@ mongoose.connect(connection_url,{
 
 
 
+
 //API endpoints
 app.get('/', (req, res) =>{
     res.status(200).send( 'hello world'  )
